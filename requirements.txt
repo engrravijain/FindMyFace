@@ -1,2 +1,11 @@
-opencv_python==3.4.2.17
+certifi==2018.11.29
+Click==7.0
+dlib==19.16.0
+face-recognition==1.2.3
+face-recognition-models==0.3.0
 numpy==1.15.0
+opencv-python==3.4.2.17
+Pillow==5.4.1
+pipreqs==0.4.9
+PyHamcrest==1.9.0
+virtualenv==16.1.0

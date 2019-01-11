@@ -20,13 +20,28 @@ Let's create a face and eye detector with OpenCV.
 
 ## Run it Locally
 
+### Anaconda environment
+
+```
+$ conda create --name find-my-face python=3.7
+$ conda activate find-my-face
+```
+
+creating the yml file be like
+
+```
+$ conda env export > sms-spam-find-my-face.yml
+$ conda env create -f sms-spam-find-my-face.yml
+```
+
 Follow the below mentioned steps to run the model on your system.
 
 ```console
 $ git clone https://github.com/engrravijain/FindMyFace.git
 $ cd FindMyFace
-$ pip install requirements.txt
-$ python model.py
+$ conda env create -f sms-spam-find-my-face.yml
+$ conda activate find-my-face
+$ python face_eye_harcaascade.py
 ```
 
 ## Refrence
